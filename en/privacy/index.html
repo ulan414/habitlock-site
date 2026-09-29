@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — HabitLock</title>
+  <link rel="icon" href="../../icon.png">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main>
+  <header>
+    <a class="brand" href="../"><img src="../../icon.png" alt="">HabitLock</a>
+    <a class="lang" href="../../privacy/" hreflang="ru">Русский</a>
+  </header>
+
+  <!-- Same text as in the app: supabase/migrations/20260929090000_privacy_policy.sql -->
+  <h1>Privacy policy</h1>
+  <p class="meta">Version 1.0 · 29 September 2026</p>
+
+  <h2>1. Who we are</h2>
+  <p>The personal data controller is Zhumys Europa LLP (ТОО «Жумыс Европа»). This policy explains what data the HabitLock app collects, why, and what happens to it. Questions and data requests: <a href="mailto:meiastana@gmail.com">meiastana@gmail.com</a>.</p>
+
+  <h2>2. What data we receive</h2>
+  <p><strong>Account.</strong> On first launch the app creates an anonymous account — no name, phone number or email. If you link an Apple ID or a Google account, we receive that account's email and identifier. Apple may share a private relay address instead of your real one.</p>
+  <p><strong>Steps.</strong> During a challenge the app reads your daily step count and walking distance from Apple Health or Health Connect and sends them to the server along with the name of the source device ("iPhone", "Apple Watch") and the sync time. The app does not read heart rate, sleep, weight, workouts or location. The 30-day average shown as a hint in the challenge builder is calculated on the phone and never leaves it.</p>
+  <p><strong>Challenges.</strong> The terms (step goal, duration, strictness, stake), the result of each day and of the whole challenge, and disputes about specific days along with your comment.</p>
+  <p><strong>Payments.</strong> The amount, payment method, status, the payment partner's transaction number and a masked card number (the last digits). You enter the full card number, expiry date and CVV with the payment partner — we never receive or store them.</p>
+  <p><strong>Technical data.</strong> The device time zone (it defines where a day begins and ends), language, push notification token, your notification settings and whether step data access is granted.</p>
+  <p>We do not collect location, contacts, photos or the advertising identifier. The app has no ads, no third-party analytics and no cross-app tracking.</p>
+
+  <h2>3. Why</h2>
+  <ul>
+    <li>To perform the contract: count days, decide the outcome of a challenge, refund the stake.</li>
+    <li>To remind you in the evening when you are short on steps, and to tell you the result of a challenge.</li>
+    <li>To review a disputed day against the raw readings.</li>
+    <li>To keep payment records as the law requires.</li>
+    <li>To protect the service from abuse.</li>
+  </ul>
+
+  <h2>4. Health data</h2>
+  <p>Steps and distance are used only to count challenge days. We do not use them for advertising, do not sell them and do not share them with third parties except as described in section 5. You can revoke access at any time in your phone settings. During an active challenge, a day without access counts as missed — this is stated in the Challenge rules.</p>
+
+  <h2>5. Who receives data</h2>
+  <p>We do not sell personal data. It is received only by those the service cannot work without:</p>
+  <ul>
+    <li>Supabase — hosts the database and runs the server logic. Its servers are located in Japan.</li>
+    <li>Google Firebase Cloud Messaging — delivers push notifications: it receives the device token and the notification text.</li>
+    <li>Payment partners (Kaspi.kz, the acquiring bank) — process the stake payment and the refund.</li>
+    <li>Apple and Google — if you sign in with them.</li>
+    <li>Government authorities — only on grounds provided by law.</li>
+  </ul>
+
+  <h2>6. How long we keep data</h2>
+  <p>While your account exists, data is kept to run the service. You can delete your account in Profile if there is no active challenge and no refund in progress. After deletion, the account can no longer be signed into.</p>
+  <p>Step readings and the challenge status log are kept after deletion as evidence in case of a dispute. Payment records are kept for as long as accounting law requires. Any other data, including your email, will be deleted on request to <a href="mailto:meiastana@gmail.com">meiastana@gmail.com</a>.</p>
+
+  <h2>7. Your rights</h2>
+  <p>You can find out what data we hold about you, get a copy, correct it, request its deletion or withdraw your consent to processing. Write to <a href="mailto:meiastana@gmail.com">meiastana@gmail.com</a>. We may ask you to confirm that the account is yours, and we will reply within the time limits set by the law of the Republic of Kazakhstan.</p>
+
+  <h2>8. Security</h2>
+  <p>Data is transmitted only over an encrypted connection (HTTPS). Each user can see only their own records: this is enforced by the database itself, not just by the app.</p>
+
+  <h2>9. Age</h2>
+  <p>HabitLock is intended for adults: taking part in a challenge is a paid contract. We do not knowingly collect data from anyone under 18.</p>
+
+  <h2>10. Changes</h2>
+  <p>Each edition is published with a version number and a date, shown at the top of the document in the app. Earlier editions are kept.</p>
+  <p>This policy is drawn up in accordance with the Law of the Republic of Kazakhstan "On Personal Data and Their Protection".</p>
+
+  <footer>Zhumys Europa LLP (ТОО «Жумыс Европа») · <a href="../">Support</a></footer>
+</main>
+</body>
+</html>
